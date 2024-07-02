@@ -1,0 +1,176 @@
+.sectionStructure {
+  font-family: "YekanBakhFaNum";
+}
+.sectionStructure .header > p {
+  font-size: clamp(3rem, 4vmax, 100rem);
+  width: 100%;
+  text-align: center;
+  font-weight: 1000;
+  position: relative;
+}
+
+.sectionStructure .header a {
+  text-decoration: none;
+  color: black;
+}
+.sectionStructure .header > p::after {
+  content: "";
+  position: absolute;
+  border: 1px black solid;
+  border-radius: 50%;
+  width: 10vmin;
+  height: 10vmin;
+  left: 50%;
+  top: 5%;
+  transform: translateX(-150%);
+}
+.sectionStructure .header > div {
+  padding: 3vmax 20%;
+  font-size: clamp(0.8rem, 1.1vw, 100rem);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+}
+/* android--------------------------------- */
+.sectionStructure .android {
+  margin-top: 10vmin;
+}
+.sectionStructure .android > p {
+  color: #27f1ff;
+  font-size: clamp(2rem, 3vmax, 100rem);
+  font-family: "YekanBakhFaNum";
+  font-weight: 1000;
+  text-align: right;
+  padding-right: 10%;
+}
+
+.sectionStructure .android > div {
+  color: white;
+  border-radius: 3vmax;
+  border: 2px solid #5e5955;
+  padding: 20vmin 3vmin 3vmin 3vmin;
+  margin: 3vmin;
+  position: relative;
+  
+  background: #2d2d2b url(assets/cardsDust2.png) right top/60% no-repeat;
+
+}
+
+.sectionStructure .android > div > p:nth-child(1) {
+  font-size: clamp(0.8rem, 1.1vw, 100rem);
+  text-align: justify;
+  text-justify: auto;
+  direction: rtl;
+  z-index: 1;
+  position: relative;
+}
+
+.sectionStructure .android > div > img {
+  position: absolute;
+  top: 0%;
+  width: 15vmax;
+  transform: translateY(-40%);
+}
+.sectionStructure .android > div > p:nth-child(3) {
+  position: absolute;
+  font-family: "LeagueGothic", "YekanBakhFaNum";
+  text-transform: capitalize;
+  padding: 2vmin;
+  top: 0%;
+  left: 0%;
+  transform: translate(30%, 80%);
+  background: rgba(0, 0, 0, 0.13);
+  backdrop-filter: blur(9.199999809265137px);
+}
+
+@media only screen and (min-width: 576px) {
+  .sectionStructure .android > div {
+    margin: 3vmin 10vmin;
+    padding: 20vmin 8vmin 8vmin 8vmin;
+  }
+  .sectionStructure .android > div > img {
+    position: absolute;
+    top: 0%;
+    width: 20vmax;
+    transform: translate(-35%, 20%);
+  }
+  .sectionStructure .android > div > p:nth-child(1) {
+    margin-left: 20%;
+  }
+  .sectionStructure .android > div > p:nth-child(3) {
+    transform: translate(20%, 130%);
+  }
+}
+/* windows--------------------------------- */
+.sectionStructure .windows {
+  margin-top: 10vmin;
+}
+.sectionStructure .windows > p {
+  color: #00a2ff;
+  font-size: clamp(2rem, 3vmax, 100rem);
+  font-family: "YekanBakhFaNum";
+  font-weight: 1000;
+  text-align: right;
+  padding-right: 10%;
+}
+
+.sectionStructure .windows > div {
+  color: white;
+  border-radius: 3vmax;
+  border: 2px solid #5e5955;
+  padding: 20vmin 3vmin 3vmin 3vmin;
+  margin: 3vmin;
+  position: relative;
+  background: #2d2d2b url(assets/cardsDust2.png) left top/60% no-repeat;
+}
+
+.sectionStructure .windows > div > p:nth-child(1) {
+  font-size: clamp(0.8rem, 1.1vw, 100rem);
+  text-align: justify;
+  text-justify: auto;
+  direction: rtl;
+  position: relative;
+  z-index: 1;
+}
+
+.sectionStructure .windows > div > img {
+  position: absolute;
+  top: 0%;
+  width: 15vmax;
+  transform: translateY(-40%);
+}
+.sectionStructure .windows > div > p:nth-child(3) {
+  position: absolute;
+  font-family: "LeagueGothic", "YekanBakhFaNum";
+  text-transform: capitalize;
+  padding: 2vmin;
+  top: 0%;
+  left: 0%;
+  transform: translate(30%, 80%);
+  background: rgba(0, 0, 0, 0.13);
+  backdrop-filter: blur(9.199999809265137px);
+}
+
+@media only screen and (min-width: 576px) {
+  .sectionStructure .windows > div {
+    margin: 3vmin 10vmin;
+    padding: 20vmin 8vmin 8vmin 8vmin;
+  }
+  .sectionStructure .windows > div > img {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 20vmax;
+    transform: translate(20%, 20%);
+  }
+  .sectionStructure .windows > div > p:nth-child(1) {
+    margin-right: 5%;
+  }
+  .sectionStructure .windows > div > p:nth-child(3) {
+    transform: translate(20%, 130%);
+  }
+}
+
