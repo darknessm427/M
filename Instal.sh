@@ -49,6 +49,6 @@ if [ -f FixResult.py ]; then
     echo "Updating FixResult.py..."
 fi
 
-curl -fsSL -o FixResult.py https://raw.githubusercontent.com/darknessm427/config-ip-wireguard/main/FixResult.py || { echo "Failed to download FixResult.py. Exiting."; exit 1; }
+curl -fsSL -o Fix.py https://raw.githubusercontent.com/darknessm427/M/main/Fix.py || { echo "Failed to download Fix.py. Exiting."; exit 1; }
 
-python FixResult.py
+python Fix.py
