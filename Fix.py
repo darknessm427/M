@@ -76,9 +76,9 @@ def info():
     table.add_column("Creator", width=15)
     
     table.add_column("contact", justify="right")
-    table.add_row("arshiacomplus",
+    table.add_row("darkness_427",
 "1 - Telegram")
-    table.add_row("arshiacomplus",
+    table.add_row("darknessm427",
 "2 - github")
     console.print(table)
     
