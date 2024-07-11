@@ -99,7 +99,7 @@ def info():
     elif whats2=='1':
     	os.system("termux-open-url 'https://t.me/arshia_mod_fun'")
     elif whats2=='2'   :
-    	os.system("termux-open-url 'https://github.com/darknessm427/WarpScanner/tree/main'")
+    	os.system("termux-open-url 'https://github.com/darknessm427/M/tree/main'")
     	
 def check_ipv6():
     
