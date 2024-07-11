@@ -1747,7 +1747,7 @@ if __name__ == "__main__":
     			f.write(txt)
     	text=f'''
 {name}() {{
-bash <(curl -fsSL https://raw.githubusercontent.com/ÐΛɌ₭ᑎΞ𐒡𐒡m427/M/main/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/darknessm427/M/main/install.sh)
 }}\n'''
     	with open('/data/data/com.termux/files/usr/etc/bash.bashrc', 'r+') as f:
     	   	content = f.read()
