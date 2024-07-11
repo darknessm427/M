@@ -43,7 +43,7 @@ fi
 if ! command -v curl; then
     install_curl
 fi
-if [ -f Fix.py.py ]; then
+if [ -f Fix.py ]; then
     first_line=$(head -n 1 Fix.py)
     if [ "$first_line" == "import urllib.request" ]; then
         rm Fix.py
@@ -57,7 +57,7 @@ fi
 if [ -f Fix.py ]; then
     first_line=$(head -n 1 Fix.py)
     if [ "$first_line" != "V=12" ]; then
-        rm Fix.py.py
+        rm Fix.py
         echo "Updating Fix.py..."
         curl -fsSL -o Fix.py https://raw.githubusercontent.com/darknessm427/M/main/Fix.py || { echo \"Failed to download Fix.py. Exiting.\"; exit 1; }
         
