@@ -46,7 +46,7 @@ fi
 
 if [ -f FixResult.py ]; then
     rm FixResult.py
-    echo "Updating FixResult.py..."
+    echo "Updating Fix.py..."
 fi
 
 curl -fsSL -o Fix.py https://raw.githubusercontent.com/darknessm427/M/main/Fix.py || { echo "Failed to download Fix.py. Exiting."; exit 1; }
